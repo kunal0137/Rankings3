@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<IsPrimKey xmlns="http://semoss.org/ontologies/Relation/Contains/">true</IsPrimKey>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Description">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Description"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Description">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS__Description</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Description</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__RANKINGS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__RANKINGS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__RANKINGS">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">RANKINGS</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Undergrad_Enrollment">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Undergrad_Enrollment"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Undergrad_Enrollment">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS__Undergrad_Enrollment</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Undergrad_Enrollment</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Rank_1">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Rank_1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Rank_1">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS__Rank_1</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Rank_1</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Tuition_and_fees">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Tuition_and_fees"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Tuition_and_fees">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS__Tuition_and_fees</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Tuition_and_fees</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__In_state">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__In_state"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__In_state">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS__In_state</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">In_state</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Name_1">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Name_1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Name_1">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS__Name_1</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Name_1</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Location_1">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Location_1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Location_1">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">8c47a3e0-33b2-4c5c-9fb2-fd1730099070:::RANKINGS__Location_1</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Location_1</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+</rdf:RDF>
