@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/RANKINGS"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Description/RANKINGS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Description/RANKINGS">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Description/RANKINGS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state/RANKINGS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state/RANKINGS">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/In_state/RANKINGS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Location_1/RANKINGS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Location_1/RANKINGS">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Location_1/RANKINGS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Name_1/RANKINGS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Name_1/RANKINGS">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Name_1/RANKINGS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Rank_1/RANKINGS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Rank_1/RANKINGS">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Rank_1/RANKINGS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Tuition_and_fees/RANKINGS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Tuition_and_fees/RANKINGS">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Tuition_and_fees/RANKINGS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/RANKINGS"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RANKINGS_UNIQUE_ROW_ID/RANKINGS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/RANKINGS">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/RANKINGS"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:01:08 05:14:25</TIME>
+</rdf:Description>
+
+</rdf:RDF>
